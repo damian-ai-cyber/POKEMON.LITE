@@ -15,6 +15,7 @@ public class main {
 
         // Ciclo WHILE: se repite mientras JugarDeNuevo sea true.
         // Cada vuelta completa = un torneo completo (seleccion + 2 batallas)
+
         while (JugarDeNuevo) {
 
             System.out.println("BIENVENIDO AL TORNEO POKEMON ");

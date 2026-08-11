@@ -100,7 +100,7 @@ public class Seleccion {
         // Ciclo for: recorre los 3 Pokemon del equipo del jugador para imprimir su info
         for (int m = 0; m < 3; m++) {
             Pokemon p = jugador.equipo[m]; // variable "p" solo para no escribir jugador.equipo[m] muchas veces
-            System.out.println((m + 1) + ". " + p.nombre + " (HP: " + p.HP + " | ATK: " + p.ATK + " | DEF: " + p.DEF + ")");
+            System.out.println((m + 1) + ". " + p.nombre + " (HP: " + p.HP + " / ATK: " + p.ATK + " / DEF: " + p.DEF + ")");
             System.out.println("   Ataques:");
             // Ciclo for: recorre los 3 ataques de ese Pokemon especifico
             for (int n = 0; n < 3; n++) {
@@ -154,7 +154,7 @@ public class Seleccion {
 
         for (int e = 0; e < 3; e++) {
             Pokemon R1 = rival1.equipo[e];
-            System.out.println((e + 1) + ". " + R1.nombre + " (HP: " + R1.HP + " | ATK: " + R1.ATK + " | DEF: " + R1.DEF + ")");
+            System.out.println((e + 1) + ". " + R1.nombre + " (HP: " + R1.HP + " / ATK: " + R1.ATK + " / DEF: " + R1.DEF + ")");
             System.out.println("   Ataques:");
             for (int n = 0; n < 3; n++) {
                 System.out.println("  - " + R1.ataques[n].nombre + " (Daño: " + R1.ataques[n].daño + ")");
@@ -167,7 +167,7 @@ public class Seleccion {
 
         for (int w = 0; w < 3; w++) {
             Pokemon R2 = rival2.equipo[w];
-            System.out.println((w + 1) + ". " + R2.nombre + " (HP: " + R2.HP + " | ATK: " + R2.ATK + " | DEF: " + R2.DEF + ")");
+            System.out.println((w + 1) + ". " + R2.nombre + " (HP: " + R2.HP + " / ATK: " + R2.ATK + " / DEF: " + R2.DEF + ")");
             System.out.println("   Ataques:");
             for (int n = 0; n < 3; n++) {
                 System.out.println("  - " + R2.ataques[n].nombre + " (Daño: " + R2.ataques[n].daño + ")");

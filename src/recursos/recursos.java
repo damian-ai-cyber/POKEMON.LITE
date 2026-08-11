@@ -8,15 +8,15 @@ public class recursos {
 
     static {
 
-        Pokemones[0] = new Pokemon("Pikachu", 200, 213, 56, 110);
-        Pokemones[1] = new Pokemon("Guadalupo", 143, 216, 9999, 112);
+        Pokemones[0] = new Pokemon("Pikachu", 200, 213, 56, 90);
+        Pokemones[1] = new Pokemon("Guadalupo", 143, 216, 9999, 87);
         Pokemones[2] = new Pokemon("Squirtle", 160, 212, 67, 93);
-        Pokemones[3] = new Pokemon("Bulbasaur", 358, 213, 89, 51);
-        Pokemones[4] = new Pokemon("Eevee", 252, 214, 54, 83);
+        Pokemones[3] = new Pokemon("Bulbasaur", 158, 213, 89, 51);
+        Pokemones[4] = new Pokemon("Eevee", 122, 214, 54, 83);
         Pokemones[5] = new Pokemon("Snorlax", 190, 218, 80, 72);
-        Pokemones[6] = new Pokemon("Gengar", 248, 320, 73, 83);
+        Pokemones[6] = new Pokemon("Gengar", 188, 220, 73, 83);
         Pokemones[7] = new Pokemon("Jigglypuff", 165, 210, 50, 91);
-        Pokemones[8] = new Pokemon("Meowth", 245, 212, 95, 123);
+        Pokemones[8] = new Pokemon("Meowth", 145, 212, 95, 78);
         Pokemones[9] = new Pokemon("Psyduck", 150, 211, 100, 61);
     }
 
